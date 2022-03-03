@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+    display: flex;
+    justify-self: center;
+
+}
 section{
     background-color: #0A22F4;
-    padding:275px 240px;
+    padding:200px 150px;
     color: #FFFFFF;
 }
 .container{
 
-    max-width:1024px;
+    max-width:1920px;
     width:100%;
     margin:0 auto;
 }
@@ -19,9 +25,28 @@ section{
     justify-content: space-between;
 }
 .map{
+    z-index: 10;
+    position:absolute;
     width: 463px;
     height: 197px;
     border-radius: 15px;
+    margin-left: 10px;
+
+}
+.padding-box{
+    position:relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    width: 463px;
+    height: 197px;
+    margin-top: 68px;
+    margin-right:513px;
+
+}
+.phone-mail{
+    margin-top: 92px;
+    margin-left: 20px;
 }
 .big{
     width: 463px;
@@ -36,32 +61,64 @@ h2{
     width: 162px;
     height: 38px;
 }
-.phone{
-    width: 306px;
-    height: 170px;
-}
-.contact{
-    display: flex;
-    margin-top: 70px;
-    justify-content: center;
-}
 .mail{
-    width: 268px;
-    height: 170px;
+    margin-left: 98px;
 }
 
+
+
 .down{
+    width: 70px;
+    height: 70px;
      position:relative;
      border-radius: 50px;
-     width: 70px;
+     margin-top: 70px;
      border: 1px solid #0A22F4;
 }
-p{
-    width: 216px;
-    height: 26px;
-}
+
 .up{
     position:absolute;
     z-index: 10;
     padding: 22px 22px;
+    margin-top: 70px;
+}
+.info{
+    margin-right:241px;
+    margin-top:55px;
+
+
+}
+input{
+width:300px;
+height: 60px;
+background-color: #0A22F4;
+border: 0;
+border-bottom: 1px solid black;
+}
+input:focus{
+   outline: none ;
+}
+#user-name{
+    margin-bottom: 40px;
+}
+#user-mail{
+    margin-bottom: 40px;
+}
+#user-number{
+    margin-bottom:40px;
+}
+#user-message{
+    width: 275px;
+    height: 140px;
+}
+input::placeholder{
+    margin-top: 0;
+   color: #FFFFFF;
+}
+button{
+    width: 150px;
+    height: 55px;
+    border-radius: 28px;
+    margin-top: 40px;
+    margin-left: 200px;
 }
