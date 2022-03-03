@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: #0A22F4;
+    padding:275px 240px;
+    color: #FFFFFF;
+}
+.container{
+
+    max-width:1920px;
+    width:100%;
+    margin:0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    width: 463px;
+    height: 197px;
+    border-radius: 15px;
+}
+.big{
+    width: 463px;
+    height: 99px;
+    margin-top: 30px;
+    margin-bottom: 58px;
+    text-align: left;
+    letter-spacing: 0px;
+
+}
+h2{
+    width: 162px;
+    height: 38px;
+}
+.phone{
+    width: 306px;
+    height: 170px;
+}
+.contact{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+.mail{
+    width: 268px;
+    height: 170px;
+}
+
+.down{
+     position:relative;
+     border-radius: 50px;
+     width: 70px;
+     border: 1px solid #0A22F4;
+}
+p{
+    width: 216px;
+    height: 26px;
+}
+.up{
+    position:absolute;
+    z-index: 10;
+    padding: 22px 22px;
+}
