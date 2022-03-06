@@ -13,7 +13,6 @@ section{
 .container{
     max-width:1920px;
     width: 100%;
-   
     margin:0 auto;
 }
 .flex{
@@ -31,7 +30,7 @@ section{
 }
 .padding-box{
     position:relative;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 15px;
     opacity: 1;
     width: 463px;
@@ -43,7 +42,7 @@ section{
 ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    
 
 }
 .phone-mail{
@@ -91,6 +90,7 @@ h2{
 
 
 }
+
 input{
     max-width: 463px;
     width: 100%;
