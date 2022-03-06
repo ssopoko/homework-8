@@ -13,6 +13,7 @@ section{
     background-color: #0A22F4;
     padding:200px 150px;
     color: #FFFFFF;
+    font-family: Helvetica Neue;
 }
 .container{
 
@@ -121,4 +122,48 @@ button{
     border-radius: 28px;
     margin-top: 40px;
     margin-left: 200px;
+}
+.footercontainer{
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding:0 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A22F4;
+    color: #FFFFFF;
+    font-family: Helvetica Neue;
+}
+.about{
+    display: flex;
+}
+.etiquette{
+    width: 209px;
+    height: 19px;
+    font-size: 16px;
+
+}
+.made{
+    width: 106px;
+    height: 16px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.heart{
+    width: 26px;
+    height: 26px;
+    margin-left:15px;
+    margin-right: 10px;
+}
+.end{
+    width: 26px;
+    height: 16px;
+    font-size: 13px;
+    margin-right:30px;
+}
+.logo{
+    width: 121px;
+    height: 35px;
+
 }
