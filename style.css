@@ -3,22 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul{
-    list-style: none;
-    display: flex;
-    justify-self: center;
 
-}
 section{
     background-color: #0A22F4;
-    padding:200px 150px;
+    padding:240px 275px;
     color: #FFFFFF;
     font-family: Helvetica Neue;
 }
 .container{
-
     max-width:1920px;
-    width:100%;
+    width: 100%;
+   
     margin:0 auto;
 }
 .flex{
@@ -45,11 +40,18 @@ section{
     margin-right:513px;
 
 }
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
 .phone-mail{
     margin-top: 92px;
     margin-left: 20px;
 }
-.big{
+.bigp{
+
     width: 463px;
     height: 99px;
     margin-top: 30px;
@@ -110,7 +112,8 @@ input:focus{
     margin-bottom:40px;
 }
 #user-message{
-    width: 463px;
+    width: 100%;
+    max-width: 463px;
     height: 140px;
 }
 input::placeholder{
