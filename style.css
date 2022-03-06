@@ -90,11 +90,12 @@ h2{
 
 }
 input{
-width:300px;
-height: 60px;
-background-color: #0A22F4;
-border: 0;
-border-bottom: 1px solid black;
+    max-width: 463px;
+    width: 100%;
+    height: 60px;
+    background-color: #0A22F4;
+    border: 0;
+    border-bottom: 1px solid black;
 }
 input:focus{
    outline: none ;
@@ -109,7 +110,7 @@ input:focus{
     margin-bottom:40px;
 }
 #user-message{
-    width: 275px;
+    width: 463px;
     height: 140px;
 }
 input::placeholder{
